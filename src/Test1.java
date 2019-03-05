@@ -19,12 +19,12 @@ class Test1 {
 
        }
        for (Product product: products){
-           calculator.calclateNettoSum(products);
+         calculator.calculateNettoSum(products);
            System.out.println("Product");
 
        }
-        System.out.println("Brutto:" + calculator.calculateBruttoSum(products) );
-        System.out.println("Netto:" + calculator.calclateNettoSum(products));
+        System.out.println("Brutto:" + calculator.calculateBruttoSum(products)+ ":");
+        System.out.println("Netto:" + calculator.calculateNettoSum(products) + ":");
         System.out.println("Vat:" + calculator.calculateVatSum(products) + "%.");
 
 
